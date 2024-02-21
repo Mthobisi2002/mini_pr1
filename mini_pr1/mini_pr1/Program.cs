@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Apply migrations on startup
+// Apply migrations on startup //Testing this thing
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
